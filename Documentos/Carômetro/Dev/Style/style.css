@@ -1,0 +1,212 @@
+body {
+    margin: auto;
+    max-width: 792px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#curso-albert {
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    height: 1122px;
+    position: relative;
+
+    .dark-circle {
+        z-index: 2;
+        width: 500px;
+        height: 500px;
+        background: black;
+        left: -250px;
+        top: -250px;
+        border-radius: 100%;
+        position: absolute;
+    }
+
+    .blue-form {
+        z-index: 2;
+        width: 200px;
+        height: 500px;
+        background: black;
+        left: 700px;
+        top: 0px;
+        border-radius: 0px 0px 0px 100px;
+        background-color: #004AAC;
+        position: absolute;
+    }
+
+    .blue-circle-border {
+        z-index: 2;
+        width: 250px;
+        height: 250px;
+        border: 100px solid #004AAC;
+        left: -225px;
+        bottom: -230px;
+        border-radius: 100%;
+        position: absolute;
+    }
+    .title {
+        position: relative;
+        left: 120px;
+        top: 250px;
+        text-shadow: -1px 1px 6px rgb(149, 149, 149);
+        font-size: 65px;
+        font-weight: bold;
+    
+        .title-blue {
+            color: #004AAC;
+        }
+    
+        .subtitle-blue {
+            position: relative;
+            left: -210px;
+            top: 45px;
+            font-size: 32px;
+            color: #004AAC;
+        }
+    
+        img {
+            position: absolute;
+            top: 80px;
+            left: 0px;
+            width: 100px;
+        }
+    }
+    
+    .classes-title {
+        position: relative;
+        left: 150px;
+        top: 400px;
+        font-size: 60px;
+        text-shadow: -1px 1px 6px rgb(149, 149, 149);
+        color: #004AAC;
+        font-weight: bold;
+    
+        ul {
+            list-style: none;
+        }
+    }
+
+}
+
+.logo {
+    z-index: 3;
+    bottom: 17px;
+    position: absolute;
+    width: 150px;
+    right: 50px;
+    filter: drop-shadow(0 0 0.15rem);
+}
+
+.carometro {
+    overflow: hidden;
+    background: rgb(151, 151, 151);
+    height: 1122px;
+    position: relative;
+    
+    .blue-circle-border {
+        z-index: 2;
+        width: 300px;
+        height: 300px;
+        border: 65px solid #004AAC;
+        left: -300px;
+        top: -250px;
+        border-radius: 100%;
+        position: absolute;
+    }
+    .title {
+        position: relative;
+        left: 120px;
+        top: 60px;
+        text-shadow: -1px 1px 6px rgb(149, 149, 149);
+        font-weight: bold;
+
+        .title-blue{
+            position: relative;
+            left:20px;
+            top: 15px;
+            font-size: 35px;
+            color: #004AAC;
+        }
+        .subtitle-black{
+            position: relative;
+            left: -110px;
+            top: 45px;
+            font-size: 20px;
+        }
+        img {
+            position: absolute;
+            transform: scaleX(-1);
+            right: 170px;
+            width: 100px;
+        }
+
+    }
+
+    .footer{
+        .title-white{
+            z-index: 3;
+            left: 250px;
+            bottom: 11px;
+            color: white;
+            position: absolute;
+            font-size: 32px;
+            font-weight: bold;
+            text-shadow: -1px 1px 6px rgb(149, 149, 149);
+
+        }   
+        .blue-bar {
+            z-index: 2;
+            width: 650px;
+            height: 75px;
+            background: black;
+            right: 0px;
+            bottom: 0px;
+            border-radius: 100px 0px 0px 0px;
+            background-color: #004AAC;
+            position: absolute;
+        }
+    }
+}
+
+.content{
+        top: 150px;
+        position: relative;
+        left: -20px;
+        font-size: 15px;
+        font-weight: 600;
+    ul{
+        display: flex;;
+        list-style: none;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        
+        .card{
+            margin: 5px;
+            width: 125px;
+            text-align: center;
+            position: relative;
+
+
+            .card-title{
+                width: 150%;
+                text-align: center;
+            }
+
+            .card-image{
+                border: 3px solid #004AAC;
+                border-radius: 10px;
+                overflow: hidden;
+                width: 120px;
+                position: relative;
+                display: grid;
+                height: 160px;
+
+                img{
+                    object-fit: fill;
+                    object-position: -50px -50px;
+                    width: 190%;
+                }
+            }
+        }
+    }
+}
