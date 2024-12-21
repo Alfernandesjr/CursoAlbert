@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 947.09 1736.33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff4242;
+      }
+
+      .cls-2 {
+        opacity: .1;
+      }
+    </style>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada 1">
+    <g>
+      <rect class="cls-1" width="947.09" height="1736.33"/>
+      <g class="cls-2">
+        <rect y="10.16" width="947.09" height="2.03"/>
+        <rect y="115.63" width="947.09" height="2.03"/>
+        <rect y="10.16" width="947.09" height="2.03"/>
+        <rect y="221.09" width="947.09" height="2.03"/>
+        <rect y="115.63" width="947.09" height="2.03"/>
+        <rect y="326.56" width="947.09" height="2.03"/>
+        <rect y="221.09" width="947.09" height="2.03"/>
+        <rect y="432.03" width="947.09" height="2.02"/>
+        <rect y="326.56" width="947.09" height="2.03"/>
+        <rect y="537.49" width="947.09" height="2.03"/>
+        <rect y="432.03" width="947.09" height="2.02"/>
+        <rect y="642.96" width="947.09" height="2.03"/>
+        <rect y="537.49" width="947.09" height="2.03"/>
+        <rect y="748.42" width="947.09" height="2.03"/>
+        <rect y="642.96" width="947.09" height="2.03"/>
+        <rect y="853.89" width="947.09" height="2.03"/>
+        <rect y="748.42" width="947.09" height="2.03"/>
+        <rect y="959.35" width="947.09" height="2.03"/>
+        <rect y="853.89" width="947.09" height="2.03"/>
+        <rect y="1064.82" width="947.09" height="2.03"/>
+        <rect y="959.35" width="947.09" height="2.03"/>
+        <rect y="1170.29" width="947.09" height="2.02"/>
+        <rect y="1064.82" width="947.09" height="2.03"/>
+        <rect y="1275.75" width="947.09" height="2.03"/>
+        <rect y="1170.29" width="947.09" height="2.02"/>
+        <rect y="1381.22" width="947.09" height="2.03"/>
+        <rect y="1275.75" width="947.09" height="2.03"/>
+        <rect y="1486.68" width="947.09" height="2.03"/>
+        <rect y="1381.22" width="947.09" height="2.03"/>
+        <rect y="1592.15" width="947.09" height="2.03"/>
+        <rect y="1486.68" width="947.09" height="2.03"/>
+        <rect y="1697.62" width="947.09" height="2.02"/>
+        <rect y="1592.15" width="947.09" height="2.03"/>
+        <rect y="1697.62" width="947.09" height="2.02"/>
+        <rect x="76.87" width="2.03" height="1736.33"/>
+        <rect x="182.33" width="2.03" height="1736.33"/>
+        <rect x="287.8" width="2.03" height="1736.33"/>
+        <rect x="393.27" width="2.02" height="1736.33"/>
+        <rect x="498.73" width="2.03" height="1736.33"/>
+        <rect x="604.2" width="2.03" height="1736.33"/>
+        <rect x="709.66" width="2.03" height="1736.33"/>
+        <rect x="815.13" width="2.03" height="1736.33"/>
+        <rect x="920.59" width="2.03" height="1736.33"/>
+      </g>
+    </g>
+  </g>
+</svg>
