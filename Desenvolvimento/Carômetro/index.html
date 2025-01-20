@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <section id="curso-albert">
+        <div class="dark-circle"></div>
+        <div class="blue-form"></div>
+        <div class="blue-circle-border"></div>
+        <div class="title">
+            <img src="Assets/Dots.svg" alt="">
+            <span class="title-blue">Curso</span>
+            <span>Albert</span>
+            <span class="subtitle-blue">Carômetro dos Alunos</span>
+        </div>
+        <div class="classes-title">
+            <ul>
+                <li>ENEM</li>
+                <li>PAS-I</li>
+                <li>PAS-II</li>
+                <li>PAS-III</li>
+                <li>Professores</li>
+            </ul>
+        </div>
+        <img class="logo" src="Assets/Logo.png" alt="">
+    </section>
+</body>
+<script>
+
+    var students = [
+        {
+            category: "Carômetro ENEM",
+            title: "PRÉ-ENEM - Alunos",
+            students: [
+                {
+                    name: "Albert Ranye",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Albert Ranye.jpg"
+                },
+                {
+                    name: "Ana Beatriz Almeida",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Ana Beatriz Almeida.jpg"
+                },
+                {
+                    name: "Andressa Alves",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Andressa Alves.jpg"
+                },
+                {
+                    name: "Andrey dos Santos",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Andrey Dos Santos.jpg"
+                },
+                {
+                    name: "Beatriz Cutrim",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Beatriz Cutrim.jpg"
+                },
+                {
+                    name: "Clara Porto",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Clara Porto.jpg"
+                },
+                {
+                    name: "Daniel Nunes",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Daniel Nunes.jpg"
+                },
+                {
+                    name: "Elisa Neotti Golveia",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Elisa Neotti Golveia.jpg"
+                },
+                {
+                    name: "Giovanna Araújo",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Giovanna Araújo.jpg"
+                },
+                {
+                    name: "Giulia Vieira Barros",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Giulia Vieira Barros.jpg"
+                },
+                {
+                    name: "Isabela Maria",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Isabela Maria.jpg"
+                },
+                {
+                    name: "Júlia Alves",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Júlia Alves.jpg"
+                },
+                {
+                    name: "Laís Gabrielle",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Laís Gabrielle.jpg"
+                },
+                {
+                    name: "Layla Virgínia Barros",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Layla Virgínia Barros.jpg"
+                },
+                {
+                    name: "Letícia Gabrielle",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Letícia Gabrielle.jpg"
+                },
+                {
+                    name: "Lis Monteiro Alves",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Lis Monteiro Alves.jpg"
+                },
+                {
+                    name: "Luiz Henrique",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Luiz Henrique.jpg"
+                },
+                {
+                    name: "Lukas Alves",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Lukas Alves.jpg"
+                },
+                {
+                    name: "Maria Antônia",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Maria Antônia.jpg"
+                },
+                {
+                    name: "Marília Ribeiro",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Marília Ribeiro.jpg"
+                },
+                {
+                    name: "Miguel Hecht Gouvea",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Miguel Gouvea.jpg"
+                },
+                {
+                    name: "Pedro Lima",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Pedro Lima.jpg"
+                },
+                {
+                    name: "Rennan de Oliveira",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Rennan de Oliveira.jpg"
+                },
+                {
+                    name: "Sophia Rays",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Sophia Rays.jpg"
+                },
+                {
+                    name: "Tainá Antunes",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Tainá Antunes.jpg"
+                },
+                {
+                    name: "Thiago Teixeira",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Thiago Teixeira.jpg"
+                },
+                {
+                    name: "Victor Hugo",
+                    photo: "Assets/Carômetro/Alunos/ENEM/ENEM - Victor Hugo.jpg"
+                },
+
+            ]
+        },
+        {
+            category: "Carômetro PRE-PAS I",
+            title: "PRE-PAS I - Alunos",
+            students: [
+                {
+                    name: "Ana Clara Moreira",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Ana Clara Moreira.jpg"
+                },
+                {
+                    name: "Ana Júlia Azevedo",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Ana Júlia Azevedo.jpg"
+                },
+                {
+                    name: "Apolo Henrique Casé",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Apolo Henrique Casé.jpg"
+                },
+                {
+                    name: "Caio Elias",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Caio Elias.jpg"
+                },
+                {
+                    name: "Camila Tiemann Carvalho",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Camila Tiemann Carvalho.jpg"
+                },
+                {
+                    name: "Catarina de Sousa",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Catarina de Sousa.jpg"
+                },
+                {
+                    name: "Daniel Rodrigues",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Daniel Rodrigues.jpg"
+                },
+                {
+                    name: "Eduardo Pires",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Eduardo Pires.jpg"
+                },
+                {
+                    name: "Elis Amorim Lino",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Elis Amorim Lino.jpg"
+                },
+                {
+                    name: "Enzo Gabriel",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Enzo Gabriel.jpg"
+                },
+                {
+                    name: "Geovanna Castilho",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Geovanna Castilho.jpg"
+                },
+                {
+                    name: "Giulia Beatriz",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Giulia Beatriz.jpg"
+                },
+                {
+                    name: "Helena Graciano",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Helena Graciano.jpg"
+                },
+                {
+                    name: "João Eycon",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - João Eycon.jpg"
+                },
+                {
+                    name: "João Pedro",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - João Pedro.jpg"
+                },
+                {
+                    name: "Jonathan Araújo",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Jonathan Araújo.jpg"
+                },
+                {
+                    name: "Kiara Siane",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Kiara Siane.jpg"
+                },
+                {
+                    name: "Letícia Alves",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Letícia Alves.jpg"
+                },
+                {
+                    name: "Lucas da Cunha",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Lucas da Cunha.jpg"
+                },
+                {
+                    name: "Lucas Henrique",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Lucas Henrique.jpg"
+                },
+                {
+                    name: "Luiza Brasil",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Luiza Brasil.jpg"
+                },
+                {
+                    name: "Maira Cordeiro",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Maira Cordeiro.jpg"
+                },
+                {
+                    name: "Maria Flor",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Maria Flor.jpg"
+                },
+                {
+                    name: "Mariana Lacerda",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Mariana Lacerda.jpg"
+                },
+                {
+                    name: "Mariane Durães",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Mariane Durães.jpg"
+                },
+                {
+                    name: "Mayara Santiago",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Mayara Santiago.jpg"
+                },
+                {
+                    name: "Miguel Nunes",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Miguel Nunes.jpg"
+                },
+                {
+                    name: "Millena Ribeiro",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Millena Ribeiro.jpg"
+                },
+                {
+                    name: "Natália Araújo",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Natália Araújo.jpg"
+                },
+                {
+                    name: "Pedro Henrique",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Pedro Henrique.jpg"
+                },
+                {
+                    name: "Pedro Ivo",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Pedro Ivo.jpg"
+                },
+                {
+                    name: "Sérgio Naziozeno",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Sérgio Naziozeno.jpg"
+                },
+                {
+                    name: "Taynara Matias",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Taynara Matias.jpg"
+                },
+                {
+                    name: "Tiago Lima",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Tiago Lima.jpg"
+                },
+                {
+                    name: "Vitória Araújo",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Vitória Araújo.jpg"
+                },
+                {
+                    name: "Yasmim Miranda",
+                    photo: "Assets/Carômetro/Alunos/PAS 1/PAS 1 - Yasmim Miranda.jpg"
+                },
+
+
+            ]
+        },
+        {
+            category: "Carômetro PRE-PAS II",
+            title: "PRE-PAS II - Alunos",
+            students: [
+                {
+                    name: "Ágatha Silva",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Ágatha Silva.jpg"
+                },
+                {
+                    name: "Alberto de Almeida",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Alberto de Almeida.jpg"
+                },
+                {
+                    name: "Ana Clara de Araújo",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Ana Clara de Araújo.jpg"
+                },
+                {
+                    name: "Ana Vitória Pereira",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Ana Vitória Pereira.jpg"
+                },
+                {
+                    name: "Arthur Pires",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Arthur Pires.jpg"
+                },
+                {
+                    name: "Bernardo Antônio de Alcântara",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Bernardo Antônio de Alcântara.jpg"
+                },
+                {
+                    name: "Carlos Daniel",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Carlos Daniel.jpg"
+                },
+                {
+                    name: "Clara Mitsuka",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Clara Mitsuka.jpg"
+                },
+                {
+                    name: "Eduarda de Paula",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Eduarda de Paula.jpg"
+                },
+                {
+                    name: "Ester de Jesus",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Ester de Jesus.jpg"
+                },
+                {
+                    name: "Fernanda Cordeiro",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Fernanda Cordeiro.jpg"
+                },
+                {
+                    name: "Gabriela de Paula",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Gabriela de Paula.jpg"
+                },
+                {
+                    name: "Gabrielle Marques",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Gabrielle Marques.jpg"
+                },
+                {
+                    name: "Giovana Guedes",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Giovana Guedes.jpg"
+                },
+                {
+                    name: "Guilherme Rodrigues",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Guilherme Rodrigues.jpg"
+                },
+                {
+                    name: "Heloisa Ferreira",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Heloisa Ferreira.jpg"
+                },
+                {
+                    name: "Isaac Costa",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Isaac Costa.jpg"
+                },
+                {
+                    name: "Isabela Simões",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Isabela Simões.jpg"
+                },
+                {
+                    name: "Isabella de Sousa",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Isabella de Sousa.jpg"
+                },
+                {
+                    name: "João Miguel",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - João Miguel.jpg"
+                },
+                {
+                    name: "Júlia Dias",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Júlia Dias.jpg"
+                },
+                {
+                    name: "Leandro Monteiro",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Leandro Monteiro.jpg"
+                },
+                {
+                    name: "Manuela Brasil",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Manuela Brasil.jpg"
+                },
+                {
+                    name: "Maria Eduarda Freire",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Maria Eduarda Freire.jpg"
+                },
+                {
+                    name: "Mariah Alves Machado",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Mariah Alves Machado.jpg"
+                },
+                {
+                    name: "Matheus Galvão",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Matheus Galvão.jpg"
+                },
+                {
+                    name: "Matheus Lima",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Matheus Lima.jpg"
+                },
+                {
+                    name: "Matheus Pires",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Matheus Pires.jpg"
+                },
+                {
+                    name: "Melissa Oliveira",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Melissa Oliveira.jpg"
+                },
+                {
+                    name: "Pablo Henrique",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Pablo Henrique.jpg"
+                },
+                {
+                    name: "Pedro Afonso",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Pedro Afonso.jpg"
+                },
+                {
+                    name: "Rafael Vasconcelos",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Rafael Vasconcelos.jpg"
+                },
+                {
+                    name: "Rebecca Luisa",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Rebecca Luisa.jpg"
+                },
+                {
+                    name: "Sara Emily",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Sara Emily.jpg"
+                },
+                {
+                    name: "Sara Passos",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Sara Passos.jpg"
+                },
+                {
+                    name: "Sofia Sandy",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Sofia Sandy.jpg"
+                },
+                {
+                    name: "Vitória Stephanie",
+                    photo: "Assets/Carômetro/Alunos/PAS 2/PAS 2 - Vitória Stephanie.jpg"
+                },
+            ]
+        },
+        {
+            category: "Carômetro PRE-PAS III",
+            title: "PRE-PAS III - Alunos",
+            students: [
+                {
+                    name: "Amandha Campos",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Amandha Campos.jpg"
+                },
+                {
+                    name: "Arthur Soares",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Arthur Soares.jpg"
+                },
+                {
+                    name: "Athyla Nogueira",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Athyla Nogueira.jpg"
+                },
+                {
+                    name: "Bruna Silva Martins",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Bruna Silva Martins.jpg"
+                },
+                {
+                    name: "Eduardo Magno",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Eduardo Magno.jpg"
+                },
+                {
+                    name: "Emily Victoria",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Emily Victoria.jpg"
+                },
+                {
+                    name: "Isabelly Vitória",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Isabelly Vitória de Almeida.jpg"
+                },
+                {
+                    name: "Karina Costa",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Karina Costa.jpg"
+                },
+                {
+                    name: "Kauan Mendes",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Kauan Mendes.jpg"
+                },
+                {
+                    name: "Letícia Araruna",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Letícia Araruna.jpg"
+                },
+                {
+                    name: "Letícia da Costa",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Letícia da Costa.jpg"
+                },
+                {
+                    name: "Lígia Araújo",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Lígia Araújo.jpg"
+                },
+                {
+                    name: "Pedro Henrique",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Pedro Henrique.jpg"
+                },
+                {
+                    name: "Rafael Miranda",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Rafael Miranda.jpg"
+                },
+                {
+                    name: "Samantha Pereira",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Samantha Pereira.jpg"
+                },
+                {
+                    name: "Samuel Lustosa",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Samuel Lustosa.jpg"
+                },
+                {
+                    name: "Tiago Braga",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Tiago Braga.jpg"
+                },
+                {
+                    name: "Victor Alves",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Victor Alves.jpg"
+                },
+                {
+                    name: "Vitória Alves",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Vitória Alves.jpg"
+                },
+                {
+                    name: "Vitória Ferreira",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Vitória Ferreira.jpg"
+                },
+                {
+                    name: "Yasmin Lorrane",
+                    photo: "Assets/Carômetro/Alunos/PAS 3/PAS 3 - Yasmin Lorrane.jpg"
+                },
+                
+            ]
+        },
+        {
+            category: "Carômetro Professores",
+            title: "Professores",
+            students: [
+                {
+                    name: "Ana Vitória",
+                    photo: "Assets/Carômetro/Professores/Ana Vitória.jpg"
+                },
+                {
+                    name: "Diogo Martins",
+                    photo: "Assets/Carômetro/Professores/Diogo Martins.jpg"
+                },
+                {
+                    name: "Evaldo Evangelista",
+                    photo: "Assets/Carômetro/Professores/Evaldo Evangelista.jpg"
+                },
+                {
+                    name: "Felipe Sousa",
+                    photo: "Assets/Carômetro/Professores/Felipe Sousa.jpg"
+                },
+                {
+                    name: "José Teixeira",
+                    photo: "Assets/Carômetro/Professores/José Teixeira.jpg"
+                },
+                {
+                    name: "Laís Alves",
+                    photo: "Assets/Carômetro/Professores/Laís Alves.jpg"
+                },
+                {
+                    name: "Lucas Parente",
+                    photo: "Assets/Carômetro/Professores/Lucas Parente.jpg"
+                },
+                {
+                    name: "Luiz Fernando",
+                    photo: "Assets/Carômetro/Professores/Luiz Fernando.jpg"
+                },
+                
+                {
+                    name: "Pedro Lucas",
+                    photo: "Assets/Carômetro/Professores/Pedro Lucas.jpg"
+                },
+                {
+                    name: "Rosiane Pereira",
+                    photo: "Assets/Carômetro/Professores/Rosiane Pereira.jpg"
+                },
+                {
+                    name: "Rodrigo Augusto",
+                    photo: "Assets/Carômetro/Professores/Rodrigo Augusto.jpg"
+                },
+                {
+                    name: "Vinícius Umbelino",
+                    photo: "Assets/Carômetro/Professores/Vinícius Umbelino.jpg"
+                }
+            ]
+        }
+
+    ];
+
+    function buildStudents() {
+
+        var body = document.getElementById('curso-albert');
+
+        students.reverse().forEach((studentGroup) => {
+
+
+            var chunkOfStudents = separeByLimit(studentGroup.students.sort()).forEach(chunck => {
+                body.insertAdjacentHTML('afterend', `
+                <section class="carometro">
+                    <div class="blue-circle-border"></div>
+                    <div class="title">
+                        <img src="Assets/Dots.svg" alt="">
+                        <span class="title-blue">Carômetro - 2° 2024</span>
+                        <span class="subtitle-black"> ${studentGroup.title} </span>
+                    </div>
+                    <div class="content">
+                        <ul>
+                        `
+                    +
+                    buildLiFromStudents(chunck)
+                    +
+                    `
+                        </ul>
+                    </div>
+                    <div class="footer">
+                        <span class="title-white"> ${studentGroup.category} </span>
+                        <img class="logo" src="Assets/Logo.png" alt="">
+                        <div class="blue-bar"></div>
+                    </div>
+                </section>
+                `);
+
+            });
+        });
+    };
+
+
+    function buildLiFromStudents(students) {
+        return students.map(student => `
+                        <li class="card">
+                            <span class="card-image">
+                                <img src="${student.photo}" alt="">
+                            </span>
+                            <span class="card-title">
+                                ${student.name}
+                            </span>
+                        </li>
+            `).join(' ')
+    }
+
+    function separeByLimit(array) {
+        let chunkSize = 20;
+        let arraysSplited = [];
+
+        for (let i = 0; i < array.length; i += chunkSize) {
+            arraysSplited.push(array.slice(i, i + chunkSize));
+        }
+
+        return arraysSplited;
+    }
+
+
+    buildStudents();
+</script>
+<style>
+body {
+    margin: auto;
+    max-width: 792px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#curso-albert {
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    height: 1122px;
+    position: relative;
+
+    .dark-circle {
+        z-index: 2;
+        width: 500px;
+        height: 500px;
+        background: black;
+        left: -250px;
+        top: -250px;
+        border-radius: 100%;
+        position: absolute;
+        filter: drop-shadow(0 0 0.5rem);
+    }
+
+    .blue-form {
+        z-index: 2;
+        width: 200px;
+        height: 500px;
+        background: black;
+        left: 700px;
+        top: 0px;
+        border-radius: 0px 0px 0px 100px;
+        background-color: #004AAC;
+        position: absolute;
+        filter: drop-shadow(0 0 0.25rem);
+    }
+
+    .blue-circle-border {
+        z-index: 2;
+        width: 250px;
+        height: 250px;
+        border: 100px solid #004AAC;
+        left: -225px;
+        bottom: -230px;
+        border-radius: 100%;
+        position: absolute;
+        filter: drop-shadow(0 0 0.25rem);
+    }
+    .title {
+        position: relative;
+        left: 120px;
+        top: 250px;
+        text-shadow: -1px 1px 6px rgb(149, 149, 149);
+        font-size: 65px;
+        font-weight: bold;
+    
+        .title-blue {
+            color: #004AAC;
+        }
+    
+        .subtitle-blue {
+            position: relative;
+            left: -210px;
+            top: 45px;
+            font-size: 32px;
+            color: #004AAC;
+        }
+    
+        img {
+            position: absolute;
+            top: 80px;
+            left: 0px;
+            width: 100px;
+        }
+    }
+    
+    .classes-title {
+        position: relative;
+        left: 150px;
+        top: 400px;
+        font-size: 60px;
+        text-shadow: -1px 1px 6px rgb(149, 149, 149);
+        color: #004AAC;
+        font-weight: bold;
+
+        ul {
+            list-style: none;
+        }
+    }
+
+}
+
+.logo {
+    z-index: 3;
+    bottom: 17px;
+    position: absolute;
+    width: 150px;
+    right: 50px;
+    filter: drop-shadow(0 0 0.15rem);
+}
+
+.carometro {
+    overflow: hidden;
+    height: 1122px;
+    position: relative;
+    text-shadow: -1px 1px 6px rgb(149, 149, 149);
+    
+    .blue-circle-border {
+        z-index: 2;
+        width: 300px;
+        height: 300px;
+        border: 65px solid #004AAC;
+        left: -300px;
+        top: -250px;
+        border-radius: 100%;
+        position: absolute;
+        filter: drop-shadow(0 0 0.35rem);
+    }
+    .title {
+        position: relative;
+        left: 120px;
+        top: 60px;
+        text-shadow: -1px 1px 6px rgb(149, 149, 149);
+        font-weight: bold;
+
+        .title-blue{
+            position: relative;
+            left:20px;
+            top: 15px;
+            font-size: 35px;
+            color: #004AAC;
+        }
+        .subtitle-black{
+            position: relative;
+            Right: 300px;
+            top: 40px;
+            font-size: 20px;
+        }
+        img {
+            position: absolute;
+            transform: scaleX(-1);
+            right: 170px;
+            width: 100px;
+            filter: drop-shadow(0 0 0.15rem);
+        }
+
+    }
+
+    .footer{
+        .title-white{
+            z-index: 3;
+            left: 230px;
+            bottom: 11px;
+            color: white;
+            position: absolute;
+            font-size: 32px;
+            font-weight: bold;
+            text-shadow: -1px 1px 6px rgb(149, 149, 149);
+
+        }   
+        .blue-bar {
+            z-index: 2;
+            width: 650px;
+            height: 75px;
+            background: black;
+            right: 0px;
+            bottom: 0px;
+            border-radius: 100px 0px 0px 0px;
+            background-color: #004AAC;
+            position: absolute;
+            filter: drop-shadow(0 0 0.35rem);
+        }
+    }
+}
+
+.content{
+        top: 150px;
+        position: relative;
+        left: -20px;
+        font-size: 15px;
+        font-weight: 600;
+    ul{
+        display: flex;;
+        list-style: none;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .card{
+            margin: 5px;
+            width: 125px;
+            text-align: center;
+            position: relative;
+
+            .card-title{
+                width: 150%;
+                text-align: center;
+            }
+
+            .card-image{
+                border: 3px solid #004AAC;
+                border-radius: 10px;
+                overflow: hidden;
+                width: 120px;
+                position: relative;
+                display: grid;
+                height: 160px;
+                filter: drop-shadow(0 0 0.15rem);
+
+                img{
+                    object-fit: fill;
+                    object-position: -50px -50px;
+                    width: 190%;
+                    
+                }
+            }
+        }
+    }
+}
+</style>
+
+</html>
